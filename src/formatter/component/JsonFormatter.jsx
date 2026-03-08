@@ -1,6 +1,6 @@
 import React, { useState, useRef } from "react";
 import Editor, { useMonaco } from "@monaco-editor/react";
-import "./styles/JsonFormatter.css";
+import "../styles/JsonFormatter.css";
 
 function JsonFormatter() {
   const [input, setInput] = useState("");
