@@ -11,6 +11,8 @@
 
 .input-area {
   flex: 45;
+  display: flex;
+  flex-direction: column;
 }
 
 .button-area {
@@ -24,21 +26,6 @@
 
 .output-area {
   flex: 45;
-}
-
-.input-area, .output-area {
-  flex: 45;
   display: flex;
   flex-direction: column;
-  border: 1px solid #ccc;
-}
-
-.button-area {
-  flex: 10;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 10px;
-  text-align: center;
-  border: 1px solid #ccc;
 }
