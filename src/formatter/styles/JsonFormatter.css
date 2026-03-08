@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.column {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc; /* box border line */
+}
+
+.input-area {
+  flex: 45;
+}
+
+.button-area {
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+}
+
+.output-area {
+  flex: 45;
+}
+
+.input-area, .output-area {
+  flex: 45;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+}
+
+.button-area {
+  flex: 10;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
